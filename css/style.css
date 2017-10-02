@@ -80,12 +80,11 @@ html {
     text-align: center;
 }
 .section-header {
-    text-align: center;
     text-transform: uppercase;
     font-weight: 800;
     font-size: 3.6rem;
     margin-bottom: 5rem;
-}
+}s
 
 .portfolio img {
     width: 100%;
@@ -94,10 +93,11 @@ html {
 }
 
 .portfolio a {
-    display: inline-block;
-    margin-top: 1rem;
-    color: #333;
-    border-bottom: 1px solid transparent;
+	display: block;
+	margin: 2rem auto 6rem;
+	color: #333;
+	width: 17rem;
+	border-bottom: 1px solid transparent;
 }
 
 .portfolio a:hover {
@@ -143,7 +143,7 @@ color: #646464;
 .offer-btn {
     display: block;
     width: 80%;
-    max-width: 300px;
+    max-width: 200px;
     margin: 1rem auto;
     border: 1px solid #fff;
     padding-bottom: 1rem;
@@ -154,5 +154,51 @@ color: #646464;
 }
 
 .offer-btn:hover {
-    background-color: #fff;
-    color: #646464;
+	text-decoration: none;
+	background-color: #fff;
+	color: #646464;
+}
+.modal img {
+	width: 100%;
+}
+.modal-title {
+	font-weight: 800;
+	font-size: 2rem;
+}
+.close {
+	background-color: transparent;
+	border: none;
+	font-size: 2.5rem;
+	position: absolute;
+	right: 2rem;
+	top: 1rem;
+}
+.modal-btn {
+	display: inline-block;
+	color: #333;
+	border: 1px solid #333;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+.modal-btn:hover {
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+}
+@media (min-width: 0px) and (max-width: 767px) {
+	html {
+		font-size: 7px;
+	}
+	.footer strong {
+		margin: 3rem 0 2rem;
+		display: inline-block;
+	}
+	.social-links a {
+		font-size: 1.5rem;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.footer strong {
+		margin: 3rem 0 2rem;
+		display: inline-block;
